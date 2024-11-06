@@ -6,11 +6,11 @@ This is a template only and will need to be added to and modified for your speci
 
 ## File Structure
 ```bash
-django_container/
-│
-├── django_project/
-│	  ├── Dockerfile
-│   ├── ...
-│
-├── docker-compose.yml
+/opt
+└── django_project_container
+	├── docker-compose
+	├── requirements.txt
+	└── django_application_directory
+		├── Dockerfile
+		├── ... # Application files go here
 ```
